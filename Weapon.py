@@ -2,8 +2,6 @@ import random
 class Weapon:
 
     def __init__(self):
-        from Towngenerator import Towngenerator
-        town = Towngenerator()
         self.weapon =random.randint(1,20)
         if self.weapon == 1:
             self.weapon = 'Mace'
@@ -34,7 +32,7 @@ class Weapon:
         elif self.weapon == 14:
                 self.weapon = 'Mace of Molag Bal'
         elif self.weapon == 15:
-                self.weapon = 'Sword Of '+town.town
+                self.weapon = 'Very Big Sword'
         elif self.weapon == 16:
                 self.weapon = 'Bow'
         elif self.weapon == 17:
